@@ -1,4 +1,4 @@
-﻿bool isOpen = true;
+﻿bool isWorking = true;
 string loopCondition = "exit";
 while (isOpen)
 {
