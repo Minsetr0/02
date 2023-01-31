@@ -1,12 +1,10 @@
-﻿bool isWorking = true;
-string loopCondition = "exit";
-while (isOpen)
+﻿string loopCondition = "exit";
+string condition = null;
+while (condition != loopCondition)
 {
     Console.WriteLine("для выхода из цикла напишите exit");
     string message = Console.ReadLine();
-
-    if (message == loopCondition)
-        break;
+    condition = message;
 
     Console.Clear();
 }
